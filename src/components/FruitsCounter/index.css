@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insideCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.counter {
+  font-family: 'Roboto';
+  color: #ffd569;
+}
+.fruitsContainer {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .fruitsContainer {
+    flex-direction: row;
+  }
+}
+.fruitsImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruitsImages {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+.image {
+  width: 200px;
+  height: 175px;
+}
+.buttonContainer {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttonContainer {
+    margin-top: 48px;
+  }
+}
+.fruitsButtons {
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+}
